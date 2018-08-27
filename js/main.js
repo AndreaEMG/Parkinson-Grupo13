@@ -144,7 +144,7 @@ $(function(){
 	            center: myLatlng,
 	            mapTypeId: google.maps.MapTypeId.ROADMAP,
 	            zoom: 10,
-	            scrollwheel: false
+	            scrollwheel: true
 	          };   
 
 	    var map = new google.maps.Map(document.getElementById("contact-map"), mapOptions);
