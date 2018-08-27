@@ -134,8 +134,8 @@ $(function(){
 	function initMap() {
 
   		
-  		var mapLatitude = -12.023947 ; // Google map latitude 
-  		var mapLongitude = -77.056498 ; // Google map Longitude  
+  		var mapLatitude = 31.423308 ; // Google map latitude 
+  		var mapLongitude = -8.75145 ; // Google map Longitude  
 
 	    var myLatlng = new google.maps.LatLng( mapLatitude, mapLongitude );
 
@@ -143,8 +143,8 @@ $(function(){
 
 	            center: myLatlng,
 	            mapTypeId: google.maps.MapTypeId.ROADMAP,
-	            zoom: 20,
-	            scrollwheel: true
+	            zoom: 10,
+	            scrollwheel: false
 	          };   
 
 	    var map = new google.maps.Map(document.getElementById("contact-map"), mapOptions);
