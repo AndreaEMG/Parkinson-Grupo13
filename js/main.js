@@ -134,8 +134,8 @@ $(function(){
 	function initMap() {
 
   		
-  		var mapLatitude = 31.423308 ; // Google map latitude 
-  		var mapLongitude = -8.075145 ; // Google map Longitude  
+  		var mapLatitude = -12.0239471 ; // Google map latitude 
+  		var mapLongitude = -77.0564985 ; // Google map Longitude  
 
 	    var myLatlng = new google.maps.LatLng( mapLatitude, mapLongitude );
 
